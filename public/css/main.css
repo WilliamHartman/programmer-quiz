@@ -1,0 +1,256 @@
+/* On-primary, used for text that is on top of a primary background. */
+/* Secondary color. */
+/* On-secondary, used for text that is on top of a secondary background. */
+/* Surface colors affect surfaces of components, such as cards, sheets, and menus. */
+/* On-surface, used for text that is on top of a surface background.*/
+/* Hint, used for text hints (such as those in text fields and labels). */
+/* Disabled, used for text in disabled components and content. */
+/* Associated with errors. May be used as a background. */
+/* Color of text appearing on the error color when used as a background. */
+/* Background used behind scrollable content */
+/* The main color used for ordinary text content that appears on the scrollable background. */
+/* Primary color with variations. */
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/public-sans/PublicSans-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/public-sans/PublicSans-Italic.woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/public-sans/PublicSans-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/public-sans/PublicSans-BoldItalic.woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+:root {
+  font-size: 14px;
+}
+
+body {
+  font-family: Public Sans, Arial, Sans Serif;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  color: #494e67;
+  background-image: linear-gradient(#f3f6fb, transparent);
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    font-size: 12px;
+    background-image: none;
+  }
+}
+body > header {
+  color: #fff;
+  background: #0000ca;
+}
+
+main > header {
+  margin-bottom: 24px;
+}
+
+main > section > header {
+  margin-bottom: 12px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #ffffff;
+  padding: 32px 9px;
+}
+
+@media screen and (max-width: 1328px) {
+  main {
+    margin: 0 64px;
+  }
+}
+@media screen and (max-width: 960px) {
+  main {
+    margin: 0 24px;
+  }
+}
+@media screen and (max-width: 640px) {
+  main {
+    margin: 0 9px;
+  }
+}
+nav {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  nav {
+    font-size: 14px;
+  }
+}
+p {
+  margin: 0 0 9px 0;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+section {
+  margin: 0 0 32px 0;
+}
+
+section:last-child {
+  margin: 0;
+}
+
+section section {
+  margin: 0 0 24px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.8em 0;
+  text-shadow: 2px 1px 4px #0003;
+}
+
+h1, h2 {
+  color: #601fff;
+}
+
+h3 {
+  color: #f7a02d;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: -0.03px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+h2 {
+  font-size: 24px;
+  letter-spacing: -0.03px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+h3, aside h4, footer h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+  h3, aside h4, footer h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+main > header, aside {
+  font-size: 16px;
+}
+
+aside h4 {
+  text-shadow: none;
+}
+
+@media screen and (max-width: 960px) {
+  main > header, aside {
+    font-size: 14px;
+  }
+}
+h6, small, blockquote {
+  font-size: 11px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 960px) {
+  h6, small, blockquote {
+    font-size: 10px;
+  }
+}
+blockquote {
+  text-align: justify;
+  margin: 0 24px 9px 24px;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.right-floater {
+  float: right;
+  margin: 32px 64px;
+  padding: 9px;
+  width: 40%;
+}
+
+@media screen and (max-width: 960px) {
+  .right-floater {
+    margin: 16px 32px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .right-floater {
+    float: none;
+    width: auto;
+    margin: 16px 24px;
+  }
+}
+aside.right-floater {
+  text-align: justify;
+  color: #848FA5;
+  background-color: #f3f6fb;
+  box-shadow: 4px 2px 8px 2px #0006;
+}
+
+@media screen and (max-width: 640px) {
+  aside.right-floater {
+    border-width: 1px 0;
+    border-color: #0006;
+    border-style: solid none;
+    color: #848FA5;
+    box-shadow: none;
+    background-color: #fff;
+  }
+}
+footer {
+  padding: 9px 64px;
+  color: #fffc;
+  background: #bf7100;
+}
+
+@media screen and (max-width: 960px) {
+  footer {
+    padding: 9px 24px;
+  }
+}
+@media screen and (max-width: 640px) {
+  footer {
+    padding: 9px;
+  }
+}

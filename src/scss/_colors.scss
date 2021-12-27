@@ -1,0 +1,34 @@
+/* On-primary, used for text that is on top of a primary background. */
+$color_on_primary: #fff;
+
+
+/* Secondary color. */
+$color_secondary: #f7a02d;
+
+$color_secondary_light: #ffd15f;
+$color_secondary_dark: #bf7100;
+
+/* On-secondary, used for text that is on top of a secondary background. */
+$color_on_secondary: #494e67;
+
+
+/* Surface colors affect surfaces of components, such as cards, sheets, and menus. */
+$color_surface: #f3f6fb;
+
+/* On-surface, used for text that is on top of a surface background.*/
+$color_on_surface: #848FA5;
+
+
+/* Hint, used for text hints (such as those in text fields and labels). */
+$color_hint_text: #666;
+
+/* Disabled, used for text in disabled components and content. */
+$color_contol_disabled: #848fa5;
+
+
+/* Associated with errors. May be used as a background. */
+$color_error:  #DD4B8D;
+
+/* Color of text appearing on the error color when used as a background. */
+$color_on_error: #fff;
+
