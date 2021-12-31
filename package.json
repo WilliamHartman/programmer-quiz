@@ -1,13 +1,46 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.6",
+    "express": "^4.17.1",
+    "react-confetti": "^6.0.1"
   },
   "devDependencies": {
-    "sass": "^1.45.1"
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "sass": "^1.45.1",
+    "web-vitals": "^2.1.2"
   },
   "scripts": {
     "server-run": "node server.js",
     "sass-compile": "node node_modules/sass/sass.js src/scss/main.scss public/css/main.css --no-source-map --load-path=src/scss",
-    "sass-clean": "rm public/css/main.css"
+    "sass-clean": "rm public/css/main.css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

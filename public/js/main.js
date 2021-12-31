@@ -1,4 +1,4 @@
-import {quiz_api} from './quiz-api.js';
+import {quiz_api} from '../../src/quiz-api.js';
 
 
 
