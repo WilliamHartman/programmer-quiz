@@ -3,7 +3,8 @@
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/material": "^5.2.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-confetti": "^6.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.1",

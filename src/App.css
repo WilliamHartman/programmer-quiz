@@ -1,9 +1,19 @@
 .App {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 32px 9px;
+}
+
+.quiz-card {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
 }
